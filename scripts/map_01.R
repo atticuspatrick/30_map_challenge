@@ -2,6 +2,7 @@
 # Focus on effective symbolization and density visualization.
 
 # 1.) Source globals ----
+library(here)
 source(here('scripts/globals.R'))
 
 # 2.) Read data ----

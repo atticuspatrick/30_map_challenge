@@ -1,0 +1,19 @@
+---
+title: "30 Map Challenge"
+output: html_document
+---
+
+```{r globals and maps run, echo=FALSE,warning=FALSE,message=FALSE,include=FALSE}
+library(here)
+source(here('scripts/globals.R'))
+source(here('scripts/map_01.R'))
+```
+
+## Map 1
+For this map, the theme was displaying point data. I visualized the olympic venues in Vancouver for the 2010 Winter Olympics!
+
+```{r map 1}
+van_map1
+```
+
+
