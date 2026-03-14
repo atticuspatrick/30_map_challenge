@@ -3,17 +3,28 @@ title: "30 Map Challenge"
 output: html_document
 ---
 
+The 30 Day Map Challenge typically takes place in November, but I decided to give it a go on my own time to dive into some R and ggplot mapping. Enjoy!
+
+Inspiration: https://30daymapchallenge.com/
+
 ```{r globals and maps run, echo=FALSE,warning=FALSE,message=FALSE,include=FALSE}
 library(here)
 source(here('scripts/globals.R'))
 source(here('scripts/map_01.R'))
+source(here('scripts/map_02.R'))
 ```
 
 ## Map 1
 For this map, the theme was displaying point data. I visualized the olympic venues in Vancouver for the 2010 Winter Olympics!
 
-```{r map 1}
+```{r map 1, echo=FALSE}
 van_map1
 ```
 
+## Map 2
+Today's challenge required the use of lines like roads, rivers, flows, etc. I chose to map the city of Boston and its street level data to show all roads in the city.
+
+```{r map 2, echo=FALSE}
+bos_map
+```
 

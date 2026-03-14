@@ -9,9 +9,11 @@ source(here('scripts/globals.R'))
 
 # read vancouver shape file
 van_boundaries <- st_read(here('data/local-area-boundary.shp'))
+# source: https://opendata.vancouver.ca/explore/dataset/local-area-boundary/map/
 
 # read olympic venues
 van_venues <- st_read(here('data/olympic-venues.shp'))
+# source: https://opendata.vancouver.ca/explore/dataset/olympic-venues/information/
 
 # 3.) Explore and clean data ----
 # View(van_boundaries)
