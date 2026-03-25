@@ -12,6 +12,7 @@ library(here)
 source(here('scripts/globals.R'))
 source(here('scripts/map_01.R'))
 source(here('scripts/map_02.R'))
+source(here('scripts/map_03.R'))
 ```
 
 ## Map 1
@@ -28,3 +29,9 @@ Today's challenge required the use of lines like roads, rivers, flows, etc. I ch
 bos_map
 ```
 
+## Map 3
+Today's challenge involved focusing on polygons. I decided to put my epidemiology hat on and visualize the percent of measles cases as a percent of census population estimates by US state to see where this should-be erradicated disease is popping up again.
+
+```{r map 3, echo=FALSE}
+measles_map
+```
